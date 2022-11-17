@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans&display=swap');
+*{
+   margin: 0;
+   padding: 0;
+   list-style: none;
+   box-sizing: border-box;
+}
+body{
+   font-family: 'PT Sans', sans-serif;
+   background-color: #6D6E78;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   min-height: 100vh;
+}
+.container{
+    width: 290px;
+    height: 520px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    background-color: seagreen;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5)
+}
+.main-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    margin-bottom: 12px;
+}
+.main-header h3{
+    color: #fff;
+}
+.search-more i{
+    font-size: 18px;
+    color: #fff;
+    margin: 0 5px;
+}
+.search-more .fa-search{
+    margin-right: 12px;
+}
+.sections{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+    padding: 0 10px;
+}
+.sections h5{
+    font-size: 12px;
+    color: #fff;
+}
+.sections .camera-chat{
+    display: flex;
+    align-items: center;
+}
+.camera-chat i{
+    font-size: 18px;
+    margin-right: 5px;
+    color: #fff;
+}
+.chat{
+    display: flex;
+    align-items: center;
+    padding-bottom: 2px;
+    border-bottom: 2px solid white;
+    width: 60px;
+    margin-left: 5px;
+}
+.camera-chat h5{
+    margin-right: 5px;
+    text-align: center;
+}
+.camera-chat .five{
+    display: flex;
+    justify-content: space-around;
+    font-size: 13px;
+    font-weight: bold;
+    width: 17px;
+    height: 17px;
+    border-radius: 50%;
+    background-color: white;
+    color: seagreen;
+    text-align: center;
+    line-height: 17px;
+}
+
+.chat-list{
+    width: 100%;
+    padding: 5px 0;
+}
+li{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    padding: 5px;
+    background-color: white;
+    transition: 0.2s ease;
+}
+li:hover{
+    background-color: #EFF9FF;
+}
+li img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 8px;
+}
+li .name-message{
+    position: absolute;
+    left: 67px;
+    top: 10px;
+}
+li .name-message p{
+    font-size: 12px;
+}
+li span{
+    position: absolute;
+    right: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    background-color: seagreen;
+    color: white;
+    text-align: center;
+    line-height: 18px;
+}
